@@ -1,0 +1,44 @@
+/* style.css */
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.select-button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.image-container {
+  width: calc(50% - 10px); /* 50% width with spacing */
+  margin: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.double-width {
+  width: calc(50% - 10px); /* 66.666% width with spacing */
+}
+
+.single-width {
+  width: 100%; /* 33.333% width with spacing */
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 300px; /* Set a maximum height for images */
+}
